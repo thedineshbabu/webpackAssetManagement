@@ -1,8 +1,8 @@
-// import _ from "lodash";
+import _ from "lodash";
 
 const component = () => {
   const element = document.createElement("div");
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+  element.innerHTML = _.join(["Dinesh", "Manoharan"], "-");
   return element;
 };
 
